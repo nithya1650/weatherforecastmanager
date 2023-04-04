@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+	margin:0;
+	box-sizing:border-box;
+	font-family:Poppins,cursive;
+	text-align:center;
+}
+.container{
+	background-color:coral;
+	padding:50px;
+	border-radius:10px;
+	margin:100px 200px;
+}
+.heading{
+	color:#202836;
+}
+input[type="text"]{
+	margin-top:8px;
+	height:2rem;
+	width:280px;
+	border-radius:10px;
+	border:2px #afcafc;
+	outline:none;
+	padding:10px;
+	font-size:16px;
+	margin-bottom:20px;
+}
+input:focus{
+	background-color:#a88e7d;
+	color:#0b0c0d;
+	border-color:black;
+	outline:0;
+	box-shadow:0 0 0 0.2rem rgb(0,123,255,25%);
+}
+input[type="button"]{
+	background-color:#6bb03f;
+	height:2rem;
+	color:whitesmoke;
+	font-size:1.1rem;
+    outline:none;
+    border-radius:10px;
+    font-weight:600;
+    border:none;
+    cursor:pointer;
+}
+.result{
+    color:#abcabc;
+}
