@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" Content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather App </title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div>
+			<h1 class="heading">WEATHER MANAGER</h1>
+			<br>
+			<input type="text" name="" placeholder="Search city" id="city-input">
+			<br>
+			<br>
+			<input type="button" onClick="searchCity()" value="Search">
+	    </div>
+	    <div class="result">
+	    	<h2 id="city-name">--------</h2>
+	    	<div>
+	    		<h1 id="weather-type">----------</h1>
+	    		<div>
+	    			<h3>TEMPERATURE:<span id="temp"></span><span>°F</span></h3>
+	    			<h3>MINIMUM TEMPERATURE:<span id="min-temp"></span><span>°F</span></h3>
+	    			<h3>MAXIMUM TEMPERATURE:<span id="max-temp"></span><span>°F</span></h3>
+	    			<h3>PRESSURE:<span id="press"></span><span></span></h3>
+	    			<h3>HUMIDITY:<span id="humi"></span><span></span></h3>
+	    		</div>
+	    	</div>
+	    </div>
+	</div>
+</body>
+</html>
